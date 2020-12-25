@@ -1,0 +1,3 @@
+include ':app'
+include ':mvplibrary'
+rootProject.name = "day_project_1"

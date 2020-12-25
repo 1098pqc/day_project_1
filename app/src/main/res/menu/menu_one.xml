@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="首页"
+        android:icon="@drawable/select_icon"
+        android:id="@+id/menu1"
+        />
+    <item
+        android:title="专题"
+        android:icon="@drawable/select_icon3"
+        android:id="@+id/menu2"
+        />
+    <item
+        android:title="分类"
+        android:icon="@drawable/select_icon4"
+        android:id="@+id/menu3"
+        />
+    <item
+        android:title="购物车"
+        android:icon="@drawable/select_icon1"
+        android:id="@+id/menu4"
+        />
+    <item
+        android:title="我的"
+        android:icon="@drawable/select_icon2"
+        android:id="@+id/menu5"
+        />
+</menu>
