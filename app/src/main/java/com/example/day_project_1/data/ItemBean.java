@@ -1,5 +1,6 @@
 package com.example.day_project_1.data;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ItemBean {
@@ -312,7 +313,7 @@ public class ItemBean {
             private Integer id;
             private String name;
             private String list_pic_url;
-            private Integer retail_price;
+            private String retail_price;
             private String goods_brief;
 
             public Integer getId() {
@@ -339,11 +340,11 @@ public class ItemBean {
                 this.list_pic_url = list_pic_url;
             }
 
-            public Integer getRetail_price() {
+            public String getRetail_price() {
                 return retail_price;
             }
 
-            public void setRetail_price(Integer retail_price) {
+            public void setRetail_price(String retail_price) {
                 this.retail_price = retail_price;
             }
 
